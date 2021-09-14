@@ -1,0 +1,21 @@
+*{
+	padding:5px;
+	box-sizing:border-box;  
+}
+
+body{
+	margin:5px;	 
+}
+
+.contimg{
+	padding:50px 50px; 
+	; 
+}
+.img{
+	transform-style: ease;
+	transform:opacity 1s;
+}
+
+.img:hover{
+	opacity:0; 
+}

@@ -1,0 +1,60 @@
+*{
+	margin:5px;
+	padding:5px;
+	box-sizing:border-box; 
+	color:#fff;   
+}
+.main{
+	display:flex; 
+	flex-flow:column nowrap; 
+}
+	/* Menú ----------------------------*/
+	.menu{
+		margin:0;	 
+		display:flex; 
+		flex-flow:row nowrap;
+		width:110%;  
+	}
+		.icono{
+			background-color:#000;
+			text-align:center;
+			flex:1 1 auto;  
+		}
+		.op{
+			background-color:#000;
+			height:50px; 
+			display:flex; 
+			flex-flow:row nowrap;  
+			flex:5 1 auto; 
+		}
+		.nav-elements{ 
+			align-self:center; 
+		}
+		.nav-elements:hover{
+			color:#FF0000; 
+			background-color:#fff; 
+		}
+	/* Contenido -----------------------*/
+	.contenido{
+		display:flex; 
+	}
+		.articulos{
+			display:flex; 
+			flex-flow:row nowrap;
+			width:60%; 
+		}
+
+		.art{
+			background-color:#000;		 
+		}
+		.pie{
+			background-color:#000; 
+			align-content:center; 
+		}
+		.anuncio{
+			background-color:#000; 
+			width:40%; 
+		}
+		.bp{
+			background-color:#000;   
+		}

@@ -1,0 +1,83 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+CSS
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Fuentes
+
+-----------------------------------------------------------------
+
+font-family:verdana; (titulo)
+
+-----------------------------------------------------------------
+
+font-family:courier; (texto) 
+
+000000000000000000000000000000000000000000000000000000000
+
+Propiedades
+
+-----------------------------------------------------------------
+
+grid-template-(columns-rows) (minmax) (grid-colum:1/4;)
+
+-----------------------------------------------------------------
+
+gap:;
+
+-----------------------------------------------------------------
+
+flex_grow:;
+
+-----------------------------------------------------------------
+
+flex_shrink:;
+
+-----------------------------------------------------------------
+
+flex_basis:;
+
+-----------------------------------------------------------------
+
+flex: grow shrinks basis;
+
+-----------------------------------------------------------------
+
+text-decoration:none;			(quita el detalle de los elementos "a" de un nav)
+
+-----------------------------------------------------------------
+
+padding:18px 15px 18px;			(Para margenes. Su orden es: arriba, derecha										e izquierda y lados) *pendiente a revisar*
+
+-----------------------------------------------------------------
+
+overflow:;						(Para manejar contenido que se sale del elemento, se 
+                             	usan: visible, hidden, scroll y auto)
+
+-----------------------------------------------------------------
+
+text-align:center;              (alineado horizontal de texto)
+
+-----------------------------------------------------------------
+
+.topnav a:hover {               (Para cuando el puntero pasa por este)
+  background-color: #ddd;   	(Activa esto) *verificar si es . o :*
+  color: black;
+}
+
+-----------------------------------------------------------------
+
+float:right;					(Para ubicar, estan: left y right)
+
+-----------------------------------------------------------------
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+HTML
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+ <a class="active" href="#home">Home</a> (Para dejar un elemento fijo)
+
+usar "alt" para las imagenes
